@@ -2447,6 +2447,12 @@ div.show-more-arrangements img:hover {
   .content-heading {
     font-size: 23px !important;
   }
+  .link-button {
+    font-size: 18px !important;
+  }
+  span.song, span.artist {
+    font-size: 18px !important;
+  }
 }
 
 
