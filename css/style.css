@@ -2444,7 +2444,17 @@ div.show-more-arrangements img:hover {
   body#home-page .section-heading p {
     font-size: 15px;
   }
+  .content-heading {
+    font-size: 23px !important;
+  }
+  .link-button {
+    font-size: 18px !important;
+  }
+  span.song, span.artist {
+    font-size: 18px !important;
+  }
 }
+
 
 #fh5co-timeline .biography p {
   color: rgb(255 255 255 / 0.5);
