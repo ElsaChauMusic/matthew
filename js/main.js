@@ -762,7 +762,7 @@
 			"title": "Witaj Majowa Jutrzenko",
 			"artist": "UnknowF.Chopin_R.Kaleta",
 			"song_url": "audio/F.Chopin_R.Kaleta_ - Witaj Majowa Jutrzenko - Trimmed.mp3",
-			"type": "INTERNATIONAL_SECULAR",
+			"type": "POLISH_SECULAR",
 			"files": [
 				//{
 				//	"name": "Maple Leaf Full Orchestral Score",
