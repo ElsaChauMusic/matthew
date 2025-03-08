@@ -2189,6 +2189,12 @@ audio {
   box-shadow: 0px 0px 5px 0px #ffffffa6;
   cursor: pointer;
 }
+.panel-body > .row:hover span {
+  color: #fff;
+}
+.panel-body > .row:hover .btn-view-music-sheet-img {
+  opacity: 1;
+}
 
 .song-card .panel-body .btn-view-music-sheet-img {
   margin-right: 7px;
