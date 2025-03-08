@@ -2169,18 +2169,18 @@ audio {
   border: none !important;
 }
 
-.song-card .panel-body .btn-view-music-sheet {
+.song-card .panel-body .btn-view-music-sheet-img {
   margin-right: 7px;
   filter: invert(1);
   opacity: 0.7;
 }
 
-.song-card .panel-body .btn-view-music-sheet:hover {
+.song-card .panel-body .btn-view-music-sheet-img:hover {
   opacity: 1;
 
 }
 
-.song-card .panel-body .btn-view-music-sheet img {
+.song-card .panel-body .btn-view-music-sheet-img img {
   height: 25px;
 }
 
