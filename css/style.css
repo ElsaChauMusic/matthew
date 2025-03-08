@@ -2134,6 +2134,7 @@ body {
 }
 
 audio {
+  opacity: 0.8;
   border-radius: 20px;
   filter: sepia(20%) saturate(70%) grayscale(1) contrast(99%) invert(12%);
   width: 100%;
