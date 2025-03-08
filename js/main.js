@@ -963,4 +963,13 @@
 			$('#about-page .toggle-language a').removeClass('active');
 			$(this).addClass('active');
 		});
+
+		$('.btn-paid-music-sheet').click(function() {
+			$("body").css("cursor", "wait");
+			$(this).css("cursor", "wait");
+			setTimeout( function(){
+				$("body").css("cursor", "default");
+				$(".btn-paid-music-sheet").css("cursor", "pointer");
+			},1000);
+		});
 }());
