@@ -2171,6 +2171,10 @@ audio {
   transition: all 0.5s ease-out;
   filter: invert(48%) sepia(203%) saturate(5307%) hue-rotate(-6deg) brightness(165%) contrast(120%);
 }
+.panel.song-card .panel-heading:hover audio {
+  transition: all 0.5s ease-out;
+  opacity: 1;
+}
 
 .song-card.panel {
   border: none;
@@ -2190,9 +2194,11 @@ audio {
   cursor: pointer;
 }
 .panel-body > .row:hover span {
+  transition: all 0.2s ease-out;
   color: #fff;
 }
 .panel-body > .row:hover .btn-view-music-sheet-img {
+  transition: all 0.2s ease-out;
   opacity: 1;
 }
 
