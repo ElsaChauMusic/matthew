@@ -969,15 +969,16 @@
 			$(e).css("cursor", "wait");
 			setTimeout( function(){
 				$("body").css("cursor", "default");
-				$(".btn-paid-music-sheet").css("cursor", "pointer");
 			},1000);
 		}
 
 		$('.btn-paid-music-sheet').click(function() {
 			showLoadingCursorForOneSecond(this);
+			$(".btn-paid-music-sheet").css("cursor", "pointer");
 		});
 		$(".modal .btn-success").click(function () {
 			showLoadingCursorForOneSecond(this);
+			$(".modal .btn-success").css("cursor", "pointer");
 		})
 
 		$('.panel-heading').click(function() {
