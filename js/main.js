@@ -964,21 +964,21 @@
 			$(this).addClass('active');
 		});
 
-		function showLoadingCursorForOneSecond(e) {
+		$('.btn-paid-music-sheet').click(function() {
 			$("body").css("cursor", "wait");
-			$(e).css("cursor", "wait");
+			$(this).css("cursor", "wait");
 			setTimeout( function(){
 				$("body").css("cursor", "default");
+				$(".btn-paid-music-sheet").css("cursor", "pointer");
 			},1000);
-		}
-
-		$('.btn-paid-music-sheet').click(function() {
-			showLoadingCursorForOneSecond(this);
-			$(".btn-paid-music-sheet").css("cursor", "pointer");
 		});
 		$(".modal .btn-success").click(function () {
-			showLoadingCursorForOneSecond(this);
-			$(".modal .btn-success").css("cursor", "pointer");
+			$("body").css("cursor", "wait");
+			$(this).css("cursor", "wait");
+			setTimeout( function(){
+				$("body").css("cursor", "default");
+				$(".modal .btn-success").css("cursor", "pointer");
+			},1000);
 		})
 
 		$('.panel-heading').click(function() {
