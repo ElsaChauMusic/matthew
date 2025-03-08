@@ -964,14 +964,21 @@
 			$(this).addClass('active');
 		});
 
-		$('.btn-paid-music-sheet').click(function() {
+		function showLoadingCursorForOneSecond(e) {
 			$("body").css("cursor", "wait");
-			$(this).css("cursor", "wait");
+			$(e).css("cursor", "wait");
 			setTimeout( function(){
 				$("body").css("cursor", "default");
 				$(".btn-paid-music-sheet").css("cursor", "pointer");
 			},1000);
+		}
+
+		$('.btn-paid-music-sheet').click(function() {
+			showLoadingCursorForOneSecond(this);
 		});
+		$(".modal .btn-success").click(function () {
+			showLoadingCursorForOneSecond(this);
+		})
 
 		$('.panel-heading').click(function() {
 			var flag = $(this).hasClass("collapsed")
