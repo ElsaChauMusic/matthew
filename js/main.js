@@ -964,7 +964,7 @@
 			$(this).addClass('active');
 		});
 
-		$('.btn-paid-music-sheet').click(function() {
+		$(".panel-group").on("click", '.btn-paid-music-sheet', function() {
 			$("body").css("cursor", "wait");
 			$(this).css("cursor", "wait");
 			setTimeout( function(){
