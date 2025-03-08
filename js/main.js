@@ -889,7 +889,7 @@
 				for(var j=0; j<visible_files.length; j++) {
 					file_name = visible_files[j]["name"];
 					var file_id = visible_files[j]["id"];
-					visible_music_sheets = visible_music_sheets + '<div class="row btn-view-music-sheet" data="' + file_id + '" data-toggle="modal" data-target="#myModal"><div class="col-md-11 col-sm-11 col-xs-11 music-sheet"><span>' + file_name + '</span></div><div class="col-md-1 col-sm-1 col-xs-1 view-music-sheet"><a href="#" data="' + file_id + '" class="btn-view-music-sheet-img" title="View Music Sheet" data-toggle="modal" data-target="#myModal" alt="Music Sheet"><img src="images/music-sheet.png"/></a></div></div>';
+					visible_music_sheets = visible_music_sheets + '<div class="row btn-view-music-sheet" data="' + file_id + '" data-toggle="modal" data-target="#myModal"><div class="col-md-11 col-sm-11 col-xs-11 music-sheet"><span>' + file_name + '</span></div><div class="col-md-1 col-sm-1 col-xs-1 view-music-sheet"><a href="#" onclick="return false;" data="' + file_id + '" class="btn-view-music-sheet-img" title="View Music Sheet" alt="Music Sheet"><img src="images/music-sheet.png"/></a></div></div>';
 				}
 			}
 			if(protected_files) {
