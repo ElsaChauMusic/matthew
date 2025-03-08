@@ -2512,3 +2512,7 @@ body#home-page .display-tc h1 {
   place-items: center;
   position: absolute;
 }
+
+#website-author a:hover {
+  color: #ff6a00;
+}
