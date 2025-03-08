@@ -904,7 +904,7 @@
 			else {
 				collapsed_flag = 'collapsed';
 			}
-			var song_card = '<div class="panel panel-default song-card animate-box fadeIn"><div class="panel-heading" role="tab" " role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse' + i + '" aria-expanded="true" aria-controls="collapse' + count + '"><h4 class="panel-title"><div class="container-flex"><div class="row"><div class="col-md-6 col-sm-12 song-name"><span class="song">' + song_name + '</span><span class="artist">' + artist_name + '</span></div><div class="col-md-5 col-sm-12 audio-player"><audio controls><source src="' + song_url + '" type="audio/mpeg">Your browser does not support the audio element.</audio></div><div class="col-md-1 col-sm-12 expand"><a class="collapse-arrow ' + collapsed_flag + '" data-toggle="collapse" href="#collapse' + i + '"><img src="images/down-arrow.png"/></a></div></div></div></h4></div><div id="collapse' + i + '" class="panel-collapse collapse ' + collapse_in + '" role="tabpanel" aria-labelledby="headingOne"><div class="panel-body">' + visible_music_sheets + protected_music_sheets + '</div></div></div>';
+			var song_card = '<div class="panel panel-default song-card animate-box fadeIn"><div class="panel-heading" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse' + i + '" aria-expanded="true" aria-controls="collapse' + count + '"><h4 class="panel-title"><div class="container-flex"><div class="row"><div class="col-md-6 col-sm-12 song-name"><span class="song">' + song_name + '</span><span class="artist">' + artist_name + '</span></div><div class="col-md-5 col-sm-12 audio-player"><audio controls><source src="' + song_url + '" type="audio/mpeg">Your browser does not support the audio element.</audio></div><div class="col-md-1 col-sm-12 expand"><a class="collapse-arrow ' + collapsed_flag + '"><img src="images/down-arrow.png"/></a></div></div></div></h4></div><div id="collapse' + i + '" class="panel-collapse collapse ' + collapse_in + '" role="tabpanel" aria-labelledby="headingOne"><div class="panel-body">' + visible_music_sheets + protected_music_sheets + '</div></div></div>';
 			$(".panel-group").append(song_card);
 			count++;
 		}
@@ -972,4 +972,18 @@
 				$(".btn-paid-music-sheet").css("cursor", "pointer");
 			},1000);
 		});
+
+		$('.panel-heading').click(function() {
+			var flag = $(this).hasClass("collapsed")
+			$(".panel-heading").find(".collapse-arrow").removeClass("collapsed");
+			$(".panel-heading").find(".collapse-arrow").addClass("collapsed");
+			$(".panel-heading").removeClass("collapsed");
+			$(".panel-heading").addClass("collapsed");
+			if(flag) {
+				$(this).find(".collapse-arrow").removeClass("collapsed");
+			} else {
+				$(this).find(".collapse-arrow").addClass("collapsed");
+			}
+
+		})
 }());
