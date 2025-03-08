@@ -2161,7 +2161,7 @@ audio {
 }
 .panel.song-card .panel-heading:hover {
   transition: all 0.2s ease-out;
-  box-shadow: 0px 0px 6px 0px #ff6a00;
+  box-shadow: 0px 0px 4px 0px #ff6a00;
   color: #ff6a00;
   cursor: pointer;
 }
@@ -2192,7 +2192,7 @@ audio {
 
 .panel-body > .row:hover {
   transition: all 0.2s ease-out;
-  box-shadow: 0px 0px 5px 0px #ffffffa6;
+  box-shadow: 0px 0px 4px 0px #ffffffa6;
   cursor: pointer;
 }
 .panel-body > .row:hover span {
