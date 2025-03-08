@@ -2159,7 +2159,16 @@ audio {
 .panel.song-card .panel-heading:hover {
   transition: all 0.2s ease-out;
   box-shadow: 0px 0px 6px 0px #ff6a00;
+  color: #ff6a00;
   cursor: pointer;
+}
+.panel.song-card .panel-heading:hover span {
+  transition: all 0.5s ease-out;
+  color: #f67400;
+}
+.panel.song-card .panel-heading:hover img {
+  transition: all 0.5s ease-out;
+  filter: invert(48%) sepia(203%) saturate(5307%) hue-rotate(-6deg) brightness(165%) contrast(120%);
 }
 
 .song-card.panel {
