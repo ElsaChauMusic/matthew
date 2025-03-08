@@ -2156,6 +2156,11 @@ audio {
   font-size: 25px;
   color: #656565;
 }
+.panel.song-card .panel-heading:hover {
+  transition: all 0.2s ease-out;
+  box-shadow: 0px 0px 6px 0px #ff6a00;
+  cursor: pointer;
+}
 
 .song-card.panel {
   border: none;
@@ -2167,6 +2172,12 @@ audio {
   font-size: 15px;
   background: #313131;
   border: none !important;
+}
+
+.panel-body > .row:hover {
+  transition: all 0.2s ease-out;
+  box-shadow: 0px 0px 5px 0px #ffffffa6;
+  cursor: pointer;
 }
 
 .song-card .panel-body .btn-view-music-sheet-img {
