@@ -421,7 +421,8 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 #fh5co-header .display-tc .btn:hover,
 .fh5co-cover .display-tc .btn:hover {
-  background: #ea272d !important;
+  /* background: #ea272d !important; */
+  background: #ff6a00 !important;
   -webkit-box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75) !important;
   -moz-box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75) !important;
   box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75) !important;
@@ -1616,7 +1617,8 @@ h1, h2, h3, h4, h5, h6, figure {
   border: 2px solid #ea272d;
 }
 .btn-primary.btn-outline:hover, .btn-primary.btn-outline:focus, .btn-primary.btn-outline:active {
-  background: #ea272d;
+  /* background: #ea272d; */
+  background: #ff6a00 !important;
   color: #fff;
 }
 
@@ -2406,7 +2408,7 @@ a.link-button {
 }
 
 a.link-button:hover {
-  color: #f5771a;
+  color: #ff6a00;
 }
 
 .alert-arrangements-found {
