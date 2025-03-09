@@ -56,7 +56,6 @@
 		<!--[if lt IE 9]>
 		<script src="js/respond.min.js"></script>
 		<![endif]-->
-
 	</head>
 	<body id="home-page">
 		<div class="fh5co-loader"></div>
@@ -144,7 +143,7 @@
 						<div class="container-flex">
 							<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true" style="padding-left: 40px;">
 								<div class="panel panel-default song-card animate-box">
-									<div class="panel-heading" role="tab" id="headingOne">
+									<div class="panel-heading" id="headingOne" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse0" aria-expanded="true" aria-controls="collapse0">
 										<h4 class="panel-title">
 											<div class="container-flex">
 												<div class="row">
@@ -159,7 +158,7 @@
 														</audio>
 													</div>
 													<div class="col-md-1 col-sm-12 expand">
-														<a class="collapse-arrow" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse0" aria-expanded="true" aria-controls="collapse0">
+														<a class="collapse-arrow">
 															<img src="images/down-arrow.png">
 														</a>
 													</div>
@@ -169,12 +168,12 @@
 									</div>
 									<div id="collapse0" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
 										<div class="panel-body">
-											<div class="row">
+											<div class="row btn-view-music-sheet" data="169X1J_M6Cmi7Yr3BSFiXqahGsDrhf5sM" data-toggle="modal" data-target="#myModal">
 												<div class="col-md-11 col-sm-11 col-xs-11 music-sheet">
 													<span>Polonaise - Full Orchestral Score</span>
 												</div>
 												<div class="col-md-1 col-sm-1 col-xs-1 view-music-sheet">
-													<a href="#" data="169X1J_M6Cmi7Yr3BSFiXqahGsDrhf5sM" class="btn-view-music-sheet" title="View Music Sheet" data-toggle="modal" data-target="#myModal" alt="Music Sheet">
+													<a href="#" onclick="return false;" data="169X1J_M6Cmi7Yr3BSFiXqahGsDrhf5sM" class="btn-view-music-sheet-img" title="View Music Sheet" alt="Music Sheet">
 														<img src="images/music-sheet.png">
 													</a>
 												</div>
@@ -183,7 +182,7 @@
 									</div>
 								</div>
 								<div class="panel panel-default song-card animate-box">
-									<div class="panel-heading" role="tab" id="headingOne">
+									<div class="panel-heading collapsed" id="headingOne" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="true" aria-controls="collapse1">
 										<h4 class="panel-title">
 											<div class="container-flex">
 												<div class="row">
@@ -198,7 +197,7 @@
 														</audio>
 													</div>
 													<div class="col-md-1 col-sm-12 expand">
-														<a class="collapse-arrow collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="true" aria-controls="collapse1">
+														<a class="collapse-arrow collapsed">
 															<img src="images/down-arrow.png">
 														</a>
 													</div>
@@ -208,41 +207,41 @@
 									</div>
 									<div id="collapse1" class="panel-collapse collapse " role="tabpanel" aria-labelledby="headingOne">
 										<div class="panel-body">
-											<div class="row">
+											<div class="row btn-view-music-sheet" data="1O4-F4jFfAdnE0vPK8r1Npj0KgQI6llLq" data-toggle="modal" data-target="#myModal">
 												<div class="col-md-11 col-sm-11 col-xs-11 music-sheet">
 													<span>Ballada Piano Vocal Score</span>
 												</div>
 												<div class="col-md-1 col-sm-1 col-xs-1 view-music-sheet">
-													<a href="#" data="1O4-F4jFfAdnE0vPK8r1Npj0KgQI6llLq" class="btn-view-music-sheet" title="View Music Sheet" data-toggle="modal" data-target="#myModal" alt="Music Sheet">
+													<a href="#" onclick="return false;" data="1O4-F4jFfAdnE0vPK8r1Npj0KgQI6llLq" class="btn-view-music-sheet-img" title="View Music Sheet" alt="Music Sheet">
 														<img src="images/music-sheet.png">
 													</a>
 												</div>
 											</div>
-											<div class="row">
+											<div class="row btn-view-music-sheet" data="1q7-HG_1cZP3TR1bqkx4q2KAZ7gPyXVc4" data-toggle="modal" data-target="#myModal">
 												<div class="col-md-11 col-sm-11 col-xs-11 music-sheet">
 													<span>Ballada Full Orchestral Score</span>
 												</div>
 												<div class="col-md-1 col-sm-1 col-xs-1 view-music-sheet">
-													<a href="#" data="1q7-HG_1cZP3TR1bqkx4q2KAZ7gPyXVc4" class="btn-view-music-sheet" title="View Music Sheet" data-toggle="modal" data-target="#myModal" alt="Music Sheet">
+													<a href="#" onclick="return false;" data="1q7-HG_1cZP3TR1bqkx4q2KAZ7gPyXVc4" class="btn-view-music-sheet-img" title="View Music Sheet" alt="Music Sheet">
 														<img src="images/music-sheet.png">
 													</a>
 												</div>
 											</div>
 											<div class="row">
-												<div class="col-md-11 col-sm-11 col-xs-11 music-sheet">
-													<span>Ballada Parts Scores</span>
-												</div>
-												<div class="col-md-1 col-sm-1 col-xs-1 view-music-sheet">
-													<a href="mailto:matthew.jaskiewicz@gmail.com" class="btn-paid-music-sheet">
+												<a href="mailto:matthew.jaskiewicz@gmail.com" class="btn-paid-music-sheet">
+													<div class="col-md-11 col-sm-11 col-xs-11 music-sheet">
+														<span>Ballada Parts Scores</span>
+													</div>
+													<div class="col-md-1 col-sm-1 col-xs-1 view-music-sheet">
 														<img src="images/mail.png">
-													</a>
-												</div>
+													</div>
+												</a>
 											</div>
 										</div>
 									</div>
 								</div>
 								<div class="panel panel-default song-card animate-box">
-									<div class="panel-heading" role="tab" id="headingOne">
+									<div class="panel-heading collapsed" id="headingOne" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse2" aria-expanded="true" aria-controls="collapse2">
 										<h4 class="panel-title">
 											<div class="container-flex">
 												<div class="row">
@@ -257,7 +256,7 @@
 														</audio>
 													</div>
 													<div class="col-md-1 col-sm-12 expand">
-														<a class="collapse-arrow collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse2" aria-expanded="true" aria-controls="collapse2">
+														<a class="collapse-arrow collapsed">
 															<img src="images/down-arrow.png">
 														</a>
 													</div>
@@ -267,35 +266,35 @@
 									</div>
 									<div id="collapse2" class="panel-collapse collapse " role="tabpanel" aria-labelledby="headingOne">
 										<div class="panel-body">
-											<div class="row">
+											<div class="row btn-view-music-sheet" data="1b_ljE_NAVZjwV5HokVPwtVE-oAXS5xj5" data-toggle="modal" data-target="#myModal">
 												<div class="col-md-11 col-sm-11 col-xs-11 music-sheet">
 													<span>Ukochany Kraj Full Orchestral Score/<span>
 												</div>
 												<div class="col-md-1 col-sm-1 col-xs-1 view-music-sheet">
-													<a href="#" data="1b_ljE_NAVZjwV5HokVPwtVE-oAXS5xj5" class="btn-view-music-sheet" title="View Music Sheet" data-toggle="modal" data-target="#myModal" alt="Music Sheet">
+													<a href="#" onclick="return false;" data="1b_ljE_NAVZjwV5HokVPwtVE-oAXS5xj5" class="btn-view-music-sheet-img" title="View Music Sheet" alt="Music Sheet">
 														<img src="images/music-sheet.png">
 													</a>
 												</div>
 											</div>
-											<div class="row">
+											<div class="row btn-view-music-sheet" data="1PsZaP5MohII_PqoovePynByJiGcmLmPc" data-toggle="modal" data-target="#myModal">
 												<div class="col-md-11 col-sm-11 col-xs-11 music-sheet">
 													<span>Ukochany Kraj Vocal Piano Score</span>
 												</div>
 												<div class="col-md-1 col-sm-1 col-xs-1 view-music-sheet">
-													<a href="#" data="1PsZaP5MohII_PqoovePynByJiGcmLmPc" class="btn-view-music-sheet" title="View Music Sheet" data-toggle="modal" data-target="#myModal" alt="Music Sheet">
+													<a href="#" onclick="return false;" data="1PsZaP5MohII_PqoovePynByJiGcmLmPc" class="btn-view-music-sheet-img" title="View Music Sheet" alt="Music Sheet">
 														<img src="images/music-sheet.png">
 													</a>
 												</div>
 											</div>
 											<div class="row">
-												<div class="col-md-11 col-sm-11 col-xs-11 music-sheet">
-													<span>Ukochany Kraj Parts Score</span>
-												</div>
-												<div class="col-md-1 col-sm-1 col-xs-1 view-music-sheet">
-													<a href="mailto:matthew.jaskiewicz@gmail.com" class="btn-paid-music-sheet">
+												<a href="mailto:matthew.jaskiewicz@gmail.com" class="btn-paid-music-sheet">
+													<div class="col-md-11 col-sm-11 col-xs-11 music-sheet">
+														<span>Ukochany Kraj Parts Score</span>
+													</div>
+													<div class="col-md-1 col-sm-1 col-xs-1 view-music-sheet">
 														<img src="images/mail.png">
-													</a>
-												</div>
+													</div>
+												</a>
 											</div>
 										</div>
 									</div>
@@ -327,6 +326,9 @@
 				</div>
 			</div>
 		</div>
+		<div class="spinner-border" role="status">
+			<span class="sr-only">Loading...</span>
+		  </div>
 		<footer id="fh5co-footer" role="contentinfo" class="fh5co-section" style="position: sticky;">
 			<div class="container">
 				<div class="row copyright">

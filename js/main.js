@@ -341,7 +341,6 @@
 		$('#copyright-text').html('&copy; ' + year + ' by Matthew Jaskiewicz')
 
 		function showpanel(el) {
-			console.log('1')
 			$(el).addClass('fadeIn fadeInUp animated-fast');
 		}
 		setTimeout(function() {
@@ -889,13 +888,13 @@
 				for(var j=0; j<visible_files.length; j++) {
 					file_name = visible_files[j]["name"];
 					var file_id = visible_files[j]["id"];
-					visible_music_sheets = visible_music_sheets + '<div class="row"><div class="col-md-11 col-sm-11 col-xs-11 music-sheet"><span>' + file_name + '</span></div><div class="col-md-1 col-sm-1 col-xs-1 view-music-sheet"><a href="#" data="' + file_id + '" class="btn-view-music-sheet" title="View Music Sheet" data-toggle="modal" data-target="#myModal" alt="Music Sheet"><img src="images/music-sheet.png"/></a></div></div>';
+					visible_music_sheets = visible_music_sheets + '<div class="row btn-view-music-sheet" data="' + file_id + '" data-toggle="modal" data-target="#myModal"><div class="col-md-11 col-sm-11 col-xs-11 music-sheet"><span>' + file_name + '</span></div><div class="col-md-1 col-sm-1 col-xs-1 view-music-sheet"><a href="#" onclick="return false;" data="' + file_id + '" class="btn-view-music-sheet-img" title="View Music Sheet" alt="Music Sheet"><img src="images/music-sheet.png"/></a></div></div>';
 				}
 			}
 			if(protected_files) {
 				for(var j=0; j<protected_files.length; j++) {
 					var file_name = protected_files[j]["name"];
-					protected_music_sheets = protected_music_sheets + '<div class="row"><div class="col-md-11 col-sm-11 col-xs-11 music-sheet"><span>' + file_name + '</span></div><div class="col-md-1 col-sm-1 col-xs-1 view-music-sheet"><a href="mailto:matthew.jaskiewicz@gmail.com" class="btn-paid-music-sheet"><img src="images/mail.png"/></a></div></div>';
+					protected_music_sheets = protected_music_sheets + '<div class="row"><a href="mailto:matthew.jaskiewicz@gmail.com" class="btn-paid-music-sheet"><div class="col-md-11 col-sm-11 col-xs-11 music-sheet"><span>' + file_name + '</span></div><div class="col-md-1 col-sm-1 col-xs-1 view-music-sheet"><img src="images/mail.png"/></div></a></div>';
 				}
 			}
 			if(count === 0 && !total_song_cards) {
@@ -904,7 +903,7 @@
 			else {
 				collapsed_flag = 'collapsed';
 			}
-			var song_card = '<div class="panel panel-default song-card animate-box fadeIn"><div class="panel-heading" role="tab" id="headingOne"><h4 class="panel-title"><div class="container-flex"><div class="row"><div class="col-md-6 col-sm-12 song-name"><span class="song">' + song_name + '</span><span class="artist">' + artist_name + '</span></div><div class="col-md-5 col-sm-12 audio-player"><audio controls><source src="' + song_url + '" type="audio/mpeg">Your browser does not support the audio element.</audio></div><div class="col-md-1 col-sm-12 expand"><a class="collapse-arrow ' + collapsed_flag + '" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse' + i + '" aria-expanded="true" aria-controls="collapse' + count + '"><img src="images/down-arrow.png"/></a></div></div></div></h4></div><div id="collapse' + i + '" class="panel-collapse collapse ' + collapse_in + '" role="tabpanel" aria-labelledby="headingOne"><div class="panel-body">' + visible_music_sheets + protected_music_sheets + '</div></div></div>';
+			var song_card = '<div class="panel panel-default song-card animate-box fadeIn"><div class="panel-heading ' + collapsed_flag + '" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse' + i + '" aria-expanded="true" aria-controls="collapse' + count + '"><h4 class="panel-title"><div class="container-flex"><div class="row"><div class="col-md-6 col-sm-12 song-name"><span class="song">' + song_name + '</span><span class="artist">' + artist_name + '</span></div><div class="col-md-5 col-sm-12 audio-player"><audio controls><source src="' + song_url + '" type="audio/mpeg">Your browser does not support the audio element.</audio></div><div class="col-md-1 col-sm-12 expand"><a class="collapse-arrow ' + collapsed_flag + '"><img src="images/down-arrow.png"/></a></div></div></div></h4></div><div id="collapse' + i + '" class="panel-collapse collapse ' + collapse_in + '" role="tabpanel" aria-labelledby="headingOne"><div class="panel-body">' + visible_music_sheets + protected_music_sheets + '</div></div></div>';
 			$(".panel-group").append(song_card);
 			count++;
 		}
@@ -963,4 +962,35 @@
 			$('#about-page .toggle-language a').removeClass('active');
 			$(this).addClass('active');
 		});
+
+		$(".panel-group").on("click", '.btn-paid-music-sheet', function() {
+			$("body").css("cursor", "wait");
+			$(this).css("cursor", "wait");
+			setTimeout( function(){
+				$("body").css("cursor", "default");
+				$(".btn-paid-music-sheet").css("cursor", "pointer");
+			},1000);
+		});
+		$(".modal .btn-success").click(function () {
+			$("body").css("cursor", "wait");
+			$(this).css("cursor", "wait");
+			setTimeout( function(){
+				$("body").css("cursor", "default");
+				$(".modal .btn-success").css("cursor", "pointer");
+			},1000);
+		})
+
+		$('.panel-heading').click(function() {
+			var flag = $(this).hasClass("collapsed")
+			$(".panel-heading").find(".collapse-arrow").removeClass("collapsed");
+			$(".panel-heading").find(".collapse-arrow").addClass("collapsed");
+			$(".panel-heading").removeClass("collapsed");
+			$(".panel-heading").addClass("collapsed");
+			if(flag) {
+				$(this).find(".collapse-arrow").removeClass("collapsed");
+			} else {
+				$(this).find(".collapse-arrow").addClass("collapsed");
+			}
+
+		})
 }());
