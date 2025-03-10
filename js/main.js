@@ -979,7 +979,7 @@
 				$(".modal .btn-success").css("cursor", "pointer");
 			},1000);
 		})
-		$(".panel-group.arrangements-page").on("click", ".panel-heading", function() {
+		$(".panel-group").on("click", ".panel-heading", function() {
 			var flag = $(this).hasClass("collapsed");
 			$(".panel-heading").find(".collapse-arrow").removeClass("collapsed");
 			$(".panel-heading").find(".collapse-arrow").addClass("collapsed");
