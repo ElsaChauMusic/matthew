@@ -2311,6 +2311,9 @@ div.arrangements-page .song-card .panel-body .view-music-sheet {
   -o-transform: scale(-1, -1);
   -webkit-transform: scale(-1, -1);
   transform: scale(-1, -1);
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
 }
 
 .collapse-arrow.collapsed img{
