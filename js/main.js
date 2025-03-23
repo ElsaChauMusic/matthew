@@ -806,7 +806,7 @@
 		{
 			"artist": "K.Hofman",
 			"title": "Spiew Wloscian Krakowskich/Peasants' Song",
-			"song_url": "audio/K.Hofman - Spiew Wloscian krakowskich_Peasants' Song.Trimmed",
+			"song_url": "audio/K.Hofman - Spiew Wloscian krakowskich_Peasants' Song.Trimmed.mp3",
 			"type": "POLISH_SECULAR",
 			"files": [
 				{
@@ -829,7 +829,7 @@
 		{
 			"artist": "J. Perersburski",
 			"title": "Czy pani mieszka sama /Do you live alone?",
-			"song_url": "audio/J. Perersburski - Czy pani mieszka sama _Do you live alone - trimmed",
+			"song_url": "audio/J. Perersburski - Czy pani mieszka sama _Do you live alone - trimmed.mp3",
 			"type": "POLISH_SECULAR",
 			"files": [
 				{
@@ -852,7 +852,7 @@
 		{
 			"artist": "J.Wasowski",
 			"title": "Piosenka jest dobra/A Song is Good for Everything",
-			"song_url": "audio/J.Wasowski - Piosenka jest dobra_A Song is Good for Everything-  Trimmed",
+			"song_url": "audio/J.Wasowski - Piosenka jest dobra_A Song is Good for Everything-  Trimmed.mp3",
 			"type": "POLISH_SECULAR",
 			"files": [
 				//{
