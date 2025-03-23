@@ -462,8 +462,8 @@
 	var x = 0
 	  var songs_data = [
 		{
-			"title": "Morze, nasze morze/Sea, our Sea",
 			"artist": "J. Kowalski",
+			"title": "Morze, nasze morze/Sea, our Sea",
 			"song_url": "audio/Morze final trimmed.mp3",
 			"type": "POLISH_SECULAR",
 			"files": [
@@ -475,8 +475,8 @@
 			]
 		},
 		{
-			"title": "Polonez Pożegnanie Ojczyzny Farewell  Polonaise",
 			"artist": "M.K.Oginski",
+			"title": "Polonez Pożegnanie Ojczyzny Farewell  Polonaise",
 			"song_url": "audio/Oginski Polonaise - trimmed.mp3",
 			"type": "POLISH_SECULAR",
 			"files": [
@@ -488,8 +488,8 @@
 			]
 		},
 		{
-			"title": "Jeszcze jeden mazur dzisiaj",
 			"artist": "Ksawery Pomian-Lubinski - ",
+			"title": "Jeszcze jeden mazur dzisiaj",
 			"song_url": "audio/Ksawery Pomian-Lubinski - Jeszcze jeden mazur dzisiaj - Trimmed.mp3",
 			"type": "POLISH_SECULAR",
 			"files": [
@@ -501,8 +501,8 @@
 			]
 		},
 		{
-			"title": "Ukochany Kraj",
 			"artist": "Tadeusz Sygietynski",
+			"title": "Ukochany Kraj",
 			"song_url": "audio/Ukochany final vocal, piano - Trimmed.mp3",
 			"type": "POLISH_SECULAR",
 			"files": [
@@ -524,8 +524,8 @@
 			]
 		},
 		{
-			"title": "Bywaj dziewcze zdrowe",
 			"artist": "Kompozytor nieznany",
+			"title": "Bywaj dziewcze zdrowe",
 			"song_url": "audio/Unknown - Bywaj dziewcze zdrowe - Trimmed.mp3",
 			"type": "POLISH_SECULAR",
 			"files": [
@@ -537,8 +537,8 @@
 			]
 		},
 		{
-			"title": "Wezme ja kontusz",
 			"artist": "Autor nieznany",
+			"title": "Wezme ja kontusz",
 			"song_url": "audio/Wezme ja kontusz final with piano - Trimmed.mp3",
 			"type": "POLISH_SECULAR",
 			"files": [
@@ -550,8 +550,8 @@
 			]
 		},
 		{
-			"title": "Bo wszyscy Polacy to jedna rodzina/All Poles arę one family",
 			"artist": "Mariusz Gabrych",
+			"title": "Bo wszyscy Polacy to jedna rodzina/All Poles arę one family",
 			"song_url": "audio/Bo wszyscy Polacy.mp3",
 			"type": "POLISH_SECULAR",
 			"files": [
@@ -573,8 +573,8 @@
 			]
 		},
 		{
-			"title": "Polski Hymn Narodowy/Polish National Anthem",
 			"artist": "J. Wybicki",
+			"title": "Polski Hymn Narodowy/Polish National Anthem",
 			"song_url": "audio/Hymn Polski full orch - trimmed.mp3",
 			"type": "POLISH_SECULAR",
 			"files": [
@@ -596,8 +596,8 @@
 			]
 		},
 		{
-			"title": "Ballada o Sw.Jozefie",
 			"artist": "Bogusław Paleczny",
+			"title": "Ballada o Sw.Jozefie",
 			"song_url": "audio/Ballada O Sw Jozefie D minor - trimmed.mp3",
 			"type": "POLISH_CHURCH",
 			"files": [
@@ -619,8 +619,8 @@
 			]
 		},
 		{
-			"title": "Tryumfy Króla Niebieskiego",
 			"artist": "Anonimous 19 cent",
+			"title": "Tryumfy Króla Niebieskiego",
 			"song_url": "audio/Tryumfy  in D Dec 2024 final - trimmed.mp3",
 			"type": "POLISH_CHURCH",
 			"files": [
@@ -642,8 +642,8 @@
 			]
 		},
 		{
-			"title": "Polish Carols Sing along",
 			"artist": "Unknown",
+			"title": "Polish Carols Sing along",
 			"song_url": "audio/2024 Polish Carols Sing along Aniol   fl,ob,2cors,str Trimmed.mp3",
 			"type": "POLISH_CHURCH",
 			"files": [
@@ -665,8 +665,8 @@
 			]
 		},
 		{
-			"title": "Nie bylo miejsca",
 			"artist": "Józef Las",
+			"title": "Nie bylo miejsca",
 			"song_url": "audio/Józef Las -  Nie bylo miejsca w choir, orch S solo - Timmed (1).mp3",
 			"type": "POLISH_CHURCH",
 			"files": [
@@ -688,8 +688,8 @@
 			]
 		},
 		{
-			"title": "Hej, w dzień Narodzenia",
 			"artist": "Polish Traditional",
+			"title": "Hej, w dzień Narodzenia",
 			"song_url": "audio/Hej, OK - w dzien narodzenia full score, jan 2025 Trimmed.mp3",
 			"type": "POLISH_CHURCH",
 			"files": [
@@ -711,8 +711,8 @@
 			]
 		},
 		{
-			"title": "My Chcemy Boga",
 			"artist": "Thomas Mcintyre",
+			"title": "My Chcemy Boga",
 			"song_url": "audio/My chcemy Boga Feb 2025 - Trimmed.mp3",
 			"type": "POLISH_CHURCH",
 			"files": [
@@ -734,8 +734,8 @@
 			]
 		},
 		{
-			"title": "Maple Leaf",
 			"artist": "Unknown",
+			"title": "Maple Leaf",
 			"song_url": "audio/Maple Leaf full orchmusx - Trimmed.mp3",
 			"type": "INTERNATIONAL_SECULAR",
 			"files": [
@@ -758,8 +758,8 @@
 		},
 
 		{
-			"title": "Witaj Majowa Jutrzenko",
 			"artist": "UnknowF.Chopin_R.Kaleta",
+			"title": "Witaj Majowa Jutrzenko",
 			"song_url": "audio/F.Chopin_R.Kaleta_ - Witaj Majowa Jutrzenko - Trimmed.mp3",
 			"type": "POLISH_SECULAR",
 			"files": [
@@ -781,8 +781,8 @@
 			]
 		},
 		{
-			"title": "Silent Night / Cicha noc",
 			"artist": "Franz Gruber",
+			"title": "Silent Night / Cicha noc",
 			"song_url": "audio/Franz_Gruber__Silent_Night_Cicha_Nocmp3.mp3",
 			"type": "INTERNATIONAL_CHURCH",
 			"files": [
@@ -801,6 +801,98 @@
 				// 	"type": "PROTECTED",
 				// 	"url": "https://mjaskiewiczmusic.com/contact"
 				// },
+			]
+		},
+		{
+			"artist": "K.Hofman",
+			"title": "Spiew Wloscian Krakowskich/Peasants' Song",
+			"song_url": "audio/K.Hofman - Spiew Wloscian krakowskich_Peasants' Song.Trimmed",
+			"type": "POLISH_SECULAR",
+			"files": [
+				{
+					"name": "Spiew Wloscian Krakowskich/Peasants' Song - Vocal and Score",
+					"type": "VISIBLE",
+					"id": "1WVByPBVwtnS0W3Is38wXpcUlUh6EUv_P"
+				},
+				//{
+				//	"name": "Polski Hymn Narodowy Full Orchestral Score",
+				//	"type": "VISIBLE",
+				//	"id": "1Qulod_QS8Rn22wQ-2K2angPzTwTLJgXo"
+				//},
+				//{
+				//	"name": "Polski Hymn Narodowy Full Orchestral Parts",
+				//	"type": "PROTECTED",
+				//	"url": ""
+				//},
+			]
+		},
+		{
+			"artist": "J. Perersburski",
+			"title": "Czy pani mieszka sama /Do you live alone?",
+			"song_url": "audio/J. Perersburski - Czy pani mieszka sama _Do you live alone - trimmed",
+			"type": "POLISH_SECULAR",
+			"files": [
+				{
+					"name": "Czy pani mieszka sama /Do you live alone? - Full Orchestral Score",
+					"type": "VISIBLE",
+					"id": "11N2wkPjCvHRiPnCKMvOHRuMiQgRyUJDo"
+				},
+				{
+					"name": "Czy pani mieszka sama /Do you live alone? - Vocal and Piano Score",
+					"type": "VISIBLE",
+					"id": "1MIBpemxZGeOm3pn-cFfcv18OzDhtIixN"
+				},
+				{
+					"name": "Polski Hymn Narodowy Full Orchestral Parts",
+					"type": "PROTECTED",
+					"url": ""
+				},
+			]
+		},
+		{
+			"artist": "J.Wasowski",
+			"title": "Piosenka jest dobra/A Song is Good for Everything",
+			"song_url": "audio/J.Wasowski - Piosenka jest dobra_A Song is Good for Everything-  Trimmed",
+			"type": "POLISH_SECULAR",
+			"files": [
+				//{
+				//	"name": "Czy pani mieszka sama /Do you live alone? - Full Orchestral Score",
+				//	"type": "VISIBLE",
+				//	"id": "11N2wkPjCvHRiPnCKMvOHRuMiQgRyUJDo"
+				//},
+				{
+					"name": "Piosenka jest dobra/A Song is Good for Everything - Vocal and Piano Score",
+					"type": "VISIBLE",
+					"id": "1MIBpemxZGeOm3pn-cFfcv18OzDhtIixN"
+				},
+				//{
+				//	"name": "Polski Hymn Narodowy Full Orchestral Parts",
+				//	"type": "PROTECTED",
+				//	"url": ""
+				//},
+			]
+		},
+		{
+			"artist": "J.Petersburski",
+			"title": "Tango Milonga full score",
+			"song_url": "audio/J.Petersburski - Tango Milonga - Trimmed",
+			"type": "POLISH_SECULAR",
+			"files": [
+				{
+					"name": "Tango Milonga - Small Orchestral and Vocal Score",
+					"type": "VISIBLE",
+					"id": "1tDF5l-_fz8sXXOj_Ogd5dMRdnY68ZvVK"
+				},
+				{
+					"name": "Tango Milonga - Vocal and Piano Score",
+					"type": "VISIBLE",
+					"id": "1KHPkHag6BfaYVVpPyFRGeloMHPYIpH1e"
+				},
+				{
+					"name": "Tango Milonga - Orchestral Parts",
+					"type": "PROTECTED",
+					"url": ""
+				},
 			]
 		},
 	  ]
