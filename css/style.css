@@ -1944,11 +1944,11 @@ body {
     font-size: 30px !important;
   }
   #fh5co-header h2 {
-    font-size: 12px !important;
+    font-size: 14px !important;
   }
-  .display-t {
+  /*.display-t {
     margin-top: -100px !important;
-  }
+  }*/
   .btn-choral-arrangements-banner {
     font-size: 10px !important;
   }
@@ -1958,15 +1958,15 @@ body {
     font-size: 30px !important;
   }
   #fh5co-header h2 {
-    font-size: 12px !important;
+    font-size: 14px !important;
   }
 }
 @media (min-width: 900px) and (max-width: 1199px){
   #fh5co-header h1 {
-    font-size: 30px !important;
+    font-size: 35px !important;
   }
   #fh5co-header h2 {
-    font-size: 12px !important;
+    font-size: 14px !important;
   }
 }
 @media (min-width: 1200px) and (max-width: 1449px){
@@ -1974,7 +1974,7 @@ body {
     font-size: 40px !important;
   }
   #fh5co-header h2 {
-    font-size: 17px !important;
+    font-size: 16px !important;
   }
   .display-t {
     padding-top: 30px;
@@ -1986,7 +1986,7 @@ body {
     font-size: 60px !important;
   }
   #fh5co-header h2 {
-    font-size: 22px !important;
+    font-size: 20px !important;
   }
 }
 @media (min-width: 1701px) and (max-width: 2000px) {
@@ -1997,7 +1997,7 @@ body {
     font-size: 70px !important;
   }
   #fh5co-header h2 {
-    font-size: 25px !important;
+    font-size: 24px !important;
   }
 }
 
