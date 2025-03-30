@@ -1983,7 +1983,7 @@ body {
 }
 @media (min-width: 1450px) and (max-width: 1700px) {
   #fh5co-header h1 {
-    font-size: 60px !important;
+    font-size: 50px !important;
   }
   #fh5co-header h2 {
     font-size: 20px !important;
@@ -1994,7 +1994,7 @@ body {
     font-size: 22px !important;
   }
   #fh5co-header h1 {
-    font-size: 70px !important;
+    font-size: 50px !important;
   }
   #fh5co-header h2 {
     font-size: 24px !important;
@@ -2518,4 +2518,38 @@ body#home-page .display-tc h1 {
 
 #website-author a:hover {
   color: #ff6a00;
+}
+
+.container-intro{
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.container-intro:before, .container-intro:after {
+  content: " ";
+  display: table;
+}
+.container-intro:after {
+  clear: both;
+}
+@media (min-width: 694px) {
+  .container-intro {
+    width: 660px;
+  }
+}
+@media (min-width: 768px) {
+  .container-intro {
+    width: 600px;
+  }
+}
+@media (min-width: 992px) {
+  .container-intro {
+    width: 700px;
+  }
+}
+@media (min-width: 1200px) {
+  .container-intro {
+    width: 800px;
+  }
 }
