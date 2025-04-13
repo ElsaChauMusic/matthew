@@ -471,6 +471,11 @@
 					"name": "Morze - SATB and Piano Score",
 					"type": "VISIBLE",
 					"id": "1koNOD4RrqWfwWS7b6NiCAwS0g9OywtGY"
+				},
+				{
+					"name": "Youtube video for music sheets",
+					"type": "YOUTUBE",
+					"id": "FOZSQbFSDo4"
 				}
 			]
 		},
@@ -959,8 +964,10 @@
 			}
 			var visible_files = [];
 			var protected_files = [];
+			var youtube_files = [];
 			var visible_music_sheets = '';
 			var protected_music_sheets = '';
+			var youtube_music_sheets = '';
 			var collapse_in = '';
 			var collapsed_flag = '';
 
@@ -974,6 +981,9 @@
 				}
 				else if(files[j]["type"] === "PROTECTED") {
 					protected_files.push(files[j]);
+				}
+				else if (files[j]["type"] == "YOUTUBE") {
+					youtube_files.push(files[j]);
 				}
 			}
 			if(visible_files) {
@@ -989,13 +999,20 @@
 					protected_music_sheets = protected_music_sheets + '<div class="row"><a href="mailto:matthew.jaskiewicz@gmail.com" class="btn-paid-music-sheet"><div class="col-md-11 col-sm-11 col-xs-11 music-sheet"><span>' + file_name + '</span></div><div class="col-md-1 col-sm-1 col-xs-1 view-music-sheet"><img src="images/mail.png"/></div></a></div>';
 				}
 			}
+			if(youtube_files) {
+				for(var j=0; j<youtube_files.length; j++) {
+					file_name = youtube_files[j]["name"];
+					var file_id = youtube_files[j]["id"];
+					youtube_music_sheets = youtube_music_sheets + '<div class="row btn-view-music-sheet" type="video" data="' + file_id + '" data-toggle="modal" data-target="#myModalVideo"><div class="col-md-11 col-sm-11 col-xs-11 music-sheet"><span>' + file_name + '</span></div><div class="col-md-1 col-sm-1 col-xs-1 view-music-sheet"><a href="#" onclick="return false;" data="' + file_id + '" class="btn-view-music-sheet-img" title="View Music Sheet" alt="Music Sheet"><img src="images/youtube-icon.png"/></a></div></div>';
+				}
+			}
 			if(count === 0 && !total_song_cards) {
 				collapse_in = 'in';
 			}
 			else {
 				collapsed_flag = 'collapsed';
 			}
-			var song_card = '<div class="panel panel-default song-card animate-box fadeIn"><div class="panel-heading ' + collapsed_flag + '" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse' + i + '" aria-expanded="true" aria-controls="collapse' + count + '"><h4 class="panel-title"><div class="container-flex"><div class="row"><div class="col-md-6 col-sm-12 song-name"><span class="artist">' + artist_name + '</span><span class="song">' + song_name + '</span></div><div class="col-md-5 col-sm-12 audio-player"><audio controls><source src="' + song_url + '" type="audio/mpeg">Your browser does not support the audio element.</audio></div><div class="col-md-1 col-sm-12 expand"><a class="collapse-arrow ' + collapsed_flag + '"><img src="images/down-arrow.png"/></a></div></div></div></h4></div><div id="collapse' + i + '" class="panel-collapse collapse ' + collapse_in + '" role="tabpanel" aria-labelledby="headingOne"><div class="panel-body">' + visible_music_sheets + protected_music_sheets + '</div></div></div>';
+			var song_card = '<div class="panel panel-default song-card animate-box fadeIn"><div class="panel-heading ' + collapsed_flag + '" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse' + i + '" aria-expanded="true" aria-controls="collapse' + count + '"><h4 class="panel-title"><div class="container-flex"><div class="row"><div class="col-md-6 col-sm-12 song-name"><span class="artist">' + artist_name + '</span><span class="song">' + song_name + '</span></div><div class="col-md-5 col-sm-12 audio-player"><audio controls><source src="' + song_url + '" type="audio/mpeg">Your browser does not support the audio element.</audio></div><div class="col-md-1 col-sm-12 expand"><a class="collapse-arrow ' + collapsed_flag + '"><img src="images/down-arrow.png"/></a></div></div></div></h4></div><div id="collapse' + i + '" class="panel-collapse collapse ' + collapse_in + '" role="tabpanel" aria-labelledby="headingOne"><div class="panel-body">' + visible_music_sheets + protected_music_sheets + youtube_music_sheets + '</div></div></div>';
 			$(".panel-group").append(song_card);
 			count++;
 		}
@@ -1038,11 +1055,28 @@
 		});
 
 		$('.panel-group').on("click", ".btn-view-music-sheet", function() {
+			var type = $(this).attr('type');
+			var file_id = $(this).attr('data');
+			if(type == "video") {
+				var url = "https://www.youtube.com/embed/" + file_id
+				$('.video-modal.modal .modal-body').html('<iframe src="" width="100%" height="100%" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>');
+				$('.video-modal.modal .modal-body iframe').attr('src', url);
+				$('.modal iframe').css('height', $(window).height() - 250);
+				return true
+			}
 			var file_id = $(this).attr('data');
 			var url = 'https://drive.google.com/file/d/' + file_id  + '/preview';
 			$('.modal .modal-body iframe').attr('src', url);
 			url = 'https://drive.google.com/uc?export=download&id=' + file_id;
 			$('.modal .modal-footer .btn-success').attr('href', url);
+		});
+
+		$('.video-modal-close').click(function() {
+			$('.video-modal.modal .modal-body').html('<iframe src="" width="100%" height="100%" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>');
+		});
+		$('.modal').click(function() {
+			console.log($(this).hasClass('in'));
+			console.log($(this).attr('style'));
 		});
 
 		$('.show-more-arrangements').click(function() {
