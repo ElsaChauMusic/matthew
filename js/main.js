@@ -1031,7 +1031,6 @@
 				var x = $(this)
 				setTimeout(function() {
 					$(x).addClass('animated-fast fadeInUp');
-					console.log('hello', x);
 				}, 100*i);
 			});
 		});
@@ -1073,10 +1072,6 @@
 
 		$('.video-modal-close').click(function() {
 			$('.video-modal.modal .modal-body').html('<iframe src="" width="100%" height="100%" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>');
-		});
-		$('.modal').click(function() {
-			console.log($(this).hasClass('in'));
-			console.log($(this).attr('style'));
 		});
 
 		$('.show-more-arrangements').click(function() {
