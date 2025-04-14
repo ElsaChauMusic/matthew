@@ -815,12 +815,12 @@
 			"type": "POLISH_SECULAR",
 			"files": [
 				{
-					"name": "Spiew Wloscian Krakowskich/Peasants' Song - Vocal and Score",
+					"name": "Spiew Wloscian Krakowskich/Peasants' Song - Vocal and Piano Score",
 					"type": "VISIBLE",
 					"id": "1wD6eg96GVJqrDfb1PX3_scfQ0BHOxFY_"
 				},
 				{
-					"name": "Polski Hymn Narodowy Full Orchestral Score",
+					"name": "Spiew Wloscian Krakowskich/Peasants' Song - Vocal and Piano Scrolling Score",
 					"type": "YOUTUBE",
 					"id": "VaQd4bFHkLo?si=HYAwhBqzyS9Q831S"
 				},
