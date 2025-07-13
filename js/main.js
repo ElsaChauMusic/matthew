@@ -900,6 +900,29 @@
 				},
 			]
 		},
+		{
+			"artist": "Bach",
+			"title": "Bouree in D",
+			"song_url": "audio/Bach Bourree in D June  2025 trimmed.mp3",
+			"type": "INTERNATIONAL_SECULAR",
+			"files": [
+				{
+					"name": "Bach Bourree in D - Vocal and Double Bass Score",
+					"type": "VISIBLE",
+					"id": "1R7ckiNgczAxMA_EsvJiwYQBBjBkukIaZ"
+				},
+				//{
+					//"name": "Maple Leaf Vocal Piano Score",
+					//"type": "VISIBLE",
+					//"id": "1gl9cpXUFtLT8t0ozaaUsBspiM-Nnqhjj"
+				//},
+				//{
+					//"name": "Maple Leaf Orchestral Parts",
+					//"type": "PROTECTED",
+					//"url": ""
+				//},
+			]
+		},
 	  ]
 
 	  function getActiveTabSongs() {
