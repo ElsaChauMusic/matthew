@@ -462,7 +462,7 @@
 	var x = 0
 	  var songs_data = [
 		{
-			"artist": "J. Kowalski",
+			"artist": "Adam Kowalski",
 			"title": "Morze, nasze morze/Sea, our Sea",
 			"song_url": "audio/Morze final trimmed.mp3",
 			"type": "POLISH_SECULAR",
@@ -480,8 +480,8 @@
 			]
 		},
 		{
-			"artist": "M.K.Oginski",
-			"title": "Polonez Pożegnanie Ojczyzny Farewell  Polonaise",
+			"artist": "Michal Kleofas Oginski",
+			"title": "Polonez Pożegnanie Ojczyzny/Farewell Polonaise",
 			"song_url": "audio/Oginski Polonaise - trimmed.mp3",
 			"type": "POLISH_SECULAR",
 			"files": [
@@ -493,8 +493,8 @@
 			]
 		},
 		{
-			"artist": "Ksawery Pomian-Lubinski - ",
-			"title": "Jeszcze jeden mazur dzisiaj",
+			"artist": "Ksawery Pomian-Lubinski",
+			"title": "Jeszcze jeden mazur dzisiaj/The Last Mazurka",
 			"song_url": "audio/Ksawery Pomian-Lubinski - Jeszcze jeden mazur dzisiaj - Trimmed.mp3",
 			"type": "POLISH_SECULAR",
 			"files": [
@@ -507,7 +507,7 @@
 		},
 		{
 			"artist": "Tadeusz Sygietynski",
-			"title": "Ukochany Kraj",
+			"title": "Ukochany Kraj/My Beloved Country",
 			"song_url": "audio/Ukochany final vocal, piano - Trimmed.mp3",
 			"type": "POLISH_SECULAR",
 			"files": [
@@ -529,8 +529,8 @@
 			]
 		},
 		{
-			"artist": "Kompozytor nieznany",
-			"title": "Bywaj dziewcze zdrowe",
+			"artist": "Kompozytor nieznany/Anonymous",
+			"title": "Bywaj dziewcze zdrowe/Fare you well, my sweetheart",
 			"song_url": "audio/Unknown - Bywaj dziewcze zdrowe - Trimmed.mp3",
 			"type": "POLISH_SECULAR",
 			"files": [
@@ -542,8 +542,8 @@
 			]
 		},
 		{
-			"artist": "Autor nieznany",
-			"title": "Wezme ja kontusz",
+			"artist": "Autor nieznany/Anonymous",
+			"title": "Wezme ja kontusz/I put on my camisole",
 			"song_url": "audio/Wezme ja kontusz final with piano - Trimmed.mp3",
 			"type": "POLISH_SECULAR",
 			"files": [
@@ -556,7 +556,7 @@
 		},
 		{
 			"artist": "Mariusz Gabrych",
-			"title": "Bo wszyscy Polacy to jedna rodzina/All Poles arę one family",
+			"title": "Bo wszyscy Polacy to jedna rodzina/All Poles are one family",
 			"song_url": "audio/Bo wszyscy Polacy.mp3",
 			"type": "POLISH_SECULAR",
 			"files": [
@@ -578,7 +578,7 @@
 			]
 		},
 		{
-			"artist": "J. Wybicki",
+			"artist": "Jozef Wybicki",
 			"title": "Polski Hymn Narodowy/Polish National Anthem",
 			"song_url": "audio/Hymn Polski full orch - trimmed.mp3",
 			"type": "POLISH_SECULAR",
@@ -602,7 +602,7 @@
 		},
 		{
 			"artist": "Bogusław Paleczny",
-			"title": "Ballada o Sw.Jozefie",
+			"title": "Ballada o Sw.Jozefie/Song of St. Joseph",
 			"song_url": "audio/Ballada O Sw Jozefie D minor - trimmed.mp3",
 			"type": "POLISH_CHURCH",
 			"files": [
@@ -625,7 +625,7 @@
 		},
 		{
 			"artist": "Anonimous 19 cent",
-			"title": "Tryumfy Króla Niebieskiego",
+			"title": "Tryumfy Króla Niebieskiego/Triumphs of the Heavenly King",
 			"song_url": "audio/Tryumfy  in D Dec 2024 final - trimmed.mp3",
 			"type": "POLISH_CHURCH",
 			"files": [
@@ -671,7 +671,7 @@
 		},
 		{
 			"artist": "Józef Las",
-			"title": "Nie bylo miejsca",
+			"title": "Nie bylo miejsca/There is no room for you",
 			"song_url": "audio/Józef Las -  Nie bylo miejsca w choir, orch S solo - Timmed (1).mp3",
 			"type": "POLISH_CHURCH",
 			"files": [
@@ -694,7 +694,7 @@
 		},
 		{
 			"artist": "Polish Traditional",
-			"title": "Hej, w dzień Narodzenia",
+			"title": "Hej, w dzień Narodzenia/Hey, on this day",
 			"song_url": "audio/Hej, OK - w dzien narodzenia full score, jan 2025 Trimmed.mp3",
 			"type": "POLISH_CHURCH",
 			"files": [
@@ -717,7 +717,7 @@
 		},
 		{
 			"artist": "Thomas Mcintyre",
-			"title": "My Chcemy Boga",
+			"title": "My Chcemy Boga/We need God",
 			"song_url": "audio/My chcemy Boga Feb 2025 - Trimmed.mp3",
 			"type": "POLISH_CHURCH",
 			"files": [
@@ -739,8 +739,31 @@
 			]
 		},
 		{
+			"artist": "Thomas Mcintyre",
+			"title": "My Chcemy Boga/We need God",
+			"song_url": "audio/My chcemy Boga Feb 2025 - Trimmed.mp3",
+			"type": "INTERNATIONAL_CHURCH",
+			"files": [
+				//{
+					//"name": "Nie bylo miejsca Piano Vocal Score",
+					//"type": "VISIBLE",
+					//"id": "1Gbt2248PRJemPT8x7ZGGYx51YcK-V5oR"
+				//},
+				{
+					"name": "My Chcemy Boga Choir Orchestral Score",
+					"type": "VISIBLE",
+					"id": "1TBd9QvtTNlNHZtjCPSIUkGZFwwfo2nGa"
+				},
+				{
+					"name": "My Chcemy Boga Choir Orchestral Parts",
+					"type": "PROTECTED",
+					"url": ""
+				},
+			]
+		},
+		{
 			"artist": "Unknown",
-			"title": "Maple Leaf",
+			"title": "Maple Leaf Forever",
 			"song_url": "audio/Maple Leaf full orchmusx - Trimmed.mp3",
 			"type": "INTERNATIONAL_SECULAR",
 			"files": [
@@ -763,8 +786,8 @@
 		},
 
 		{
-			"artist": "F.Chopin_R.Kaleta",
-			"title": "Witaj Majowa Jutrzenko",
+			"artist": "attr. Fryderyk Chopin",
+			"title": "Witaj Majowa Jutrzenko/Welcome May's Dawn",
 			"song_url": "audio/F.Chopin_R.Kaleta_ - Witaj Majowa Jutrzenko - Trimmed.mp3",
 			"type": "POLISH_SECULAR",
 			"files": [
@@ -787,7 +810,7 @@
 		},
 		{
 			"artist": "Franz Gruber",
-			"title": "Silent Night / Cicha noc",
+			"title": "Silent Night/Cicha noc",
 			"song_url": "audio/Franz_Gruber__Silent_Night_Cicha_Nocmp3.mp3",
 			"type": "INTERNATIONAL_CHURCH",
 			"files": [
@@ -809,7 +832,7 @@
 			]
 		},
 		{
-			"artist": "K.Hofman",
+			"artist": "Kazimierz Hofman",
 			"title": "Spiew Wloscian Krakowskich/Peasants' Song",
 			"song_url": "audio/K.Hofman - Spiew Wloscian krakowskich_Peasants' Song.Trimmed.mp3",
 			"type": "POLISH_SECULAR",
@@ -832,8 +855,8 @@
 			]
 		},
 		{
-			"artist": "J. Perersburski",
-			"title": "Czy pani mieszka sama /Do you live alone?",
+			"artist": "Jerzy Perersburski",
+			"title": "Czy pani mieszka sama/Do you live alone?",
 			"song_url": "audio/J. Perersburski - Czy pani mieszka sama _Do you live alone - trimmed.mp3",
 			"type": "POLISH_SECULAR",
 			"files": [
@@ -855,7 +878,7 @@
 			]
 		},
 		{
-			"artist": "J.Wasowski",
+			"artist": "Jerzy Wasowski",
 			"title": "Piosenka jest dobra/A Song is Good for Everything",
 			"song_url": "audio/J.Wasowski - Piosenka jest dobra_A Song is Good for Everything-  Trimmed.mp3",
 			"type": "POLISH_SECULAR",
@@ -878,8 +901,8 @@
 			]
 		},
 		{
-			"artist": "J.Petersburski",
-			"title": "Tango Milonga full score",
+			"artist": "Jerzy Petersburski",
+			"title": "Tango Milonga",
 			"song_url": "audio/J.Petersburski - Tango Milonga - Trimmed",
 			"type": "POLISH_SECULAR",
 			"files": [
@@ -901,7 +924,7 @@
 			]
 		},
 		{
-			"artist": "Bach",
+			"artist": "Johann Sebastian Bach",
 			"title": "Bouree in D",
 			"song_url": "audio/Bach Bourree in D June  2025 trimmed.mp3",
 			"type": "INTERNATIONAL_SECULAR",
@@ -921,6 +944,98 @@
 					//"type": "PROTECTED",
 					//"url": ""
 				//},
+			]
+		},
+		{
+			"artist": "Karol Dąbrowski",
+			"title": "Ojczyzno ma/My Fatherland",
+			"song_url": "audio/Ojczyzno ma - voc,fl,piano 20252 trimmed.mp3",
+			"type": "POLISH_SECULAR",
+			"files": [
+				{
+					"name": "Ojczyzno ma/My Fatherland - Vocal, Flute, Piano Score",
+					"type": "VISIBLE",
+					"id": "1l_5LlUrP6cPAOfnwJxshNQ9ITSmBp6xe"
+				},
+				//{
+					//"name": "Maple Leaf Vocal Piano Score",
+					//"type": "VISIBLE",
+					//"id": "1gl9cpXUFtLT8t0ozaaUsBspiM-Nnqhjj"
+				//},
+				//{
+					//"name": "Maple Leaf Orchestral Parts",
+					//"type": "PROTECTED",
+					//"url": ""
+				//},
+			]
+		},
+		{
+			"artist": "Waclaw Bojarski",
+			"title": "Natalia",
+			"song_url": "audio/Natalia.new, full orch - Trimmed",
+			"type": "POLISH_SECULAR",
+			"files": [
+				{
+					"name": "Natalia - Full Orchestra Score",
+					"type": "VISIBLE",
+					"id": "1gEVK-gPP26i8B22d0Xbdg_4p68e2PsKX"
+				},
+				//{
+					//"name": "Natalia - Choir Piano Score",
+					//"type": "VISIBLE",
+					//"id": "13e4N5PBJlx82qNpDZ0Y-EXkbys8AvKbH"
+				//},
+				{
+					"name": "Natalia - Orchestral Parts",
+					"type": "PROTECTED",
+					"url": ""
+				},
+			]
+		},
+		{
+			"artist": "Krystyna Krahelska",
+			"title": "Smutna Rzeka/Blue River",
+			"song_url": "audio/Smutna rzeka Aug 5 corrected full new - Trimmed",
+			"type": "POLISH_SECULAR",
+			"files": [
+				{
+					"name": "Blue River - Full Orchestra Score",
+					"type": "VISIBLE",
+					"id": "1ugmL2Oq0qEWOnpvQFJN9AqTjD5uh89rc"
+				},
+				//{
+					//"name": "Blue River - Choir Piano Score",
+					//"type": "VISIBLE",
+					//"id": "1JimBje_pmrftzNt3V9s42Ix8YVUzeG0A"
+				//},
+				{
+					"name": "Blue River - Orchestral Parts",
+					"type": "PROTECTED",
+					"url": ""
+				},
+			]
+		},
+		{
+			"artist": "Andrzej Panufnik",
+			"title": "Warszawskie Dzieci/Warsaw's Children",
+			"song_url": "audio/Smutna rzeka Aug 5 corrected full new - Trimmed",
+			"type": "POLISH_SECULAR",
+			"files": [
+				{
+					"name": "Warsaw's Children - Full Orchestra Score",
+					"type": "VISIBLE",
+					"id": "1u1Tv9Uy6wb27SAg7AAX53EJ85UqijXT2"
+				},
+				//{
+					//"name": "Warsaw's Children - Choir Piano Score",
+					//"type": "VISIBLE",
+					//"id": "12HAOv4MM9e8SOldOwVv_Nqj8ViBsda_R"
+				//},
+				{
+					"name": "Warsaw's Children - Orchestral Parts",
+					"type": "PROTECTED",
+					"url": ""
+				},
 			]
 		},
 	  ]
