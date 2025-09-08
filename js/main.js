@@ -972,7 +972,7 @@
 		{
 			"artist": "Waclaw Bojarski",
 			"title": "Natalia",
-			"song_url": "audio/Natalia.new, full orch - Trimmed",
+			"song_url": "audio/Natalia.new, full orch - Trimmed.mp3",
 			"type": "POLISH_SECULAR",
 			"files": [
 				{
@@ -995,7 +995,7 @@
 		{
 			"artist": "Krystyna Krahelska",
 			"title": "Smutna Rzeka/Blue River",
-			"song_url": "audio/Smutna rzeka Aug 5 corrected full new - Trimmed",
+			"song_url": "audio/Smutna rzeka Aug 5 corrected full new - Trimmed.mp3",
 			"type": "POLISH_SECULAR",
 			"files": [
 				{
@@ -1018,7 +1018,7 @@
 		{
 			"artist": "Andrzej Panufnik",
 			"title": "Warszawskie Dzieci/Warsaw's Children",
-			"song_url": "audio/Smutna rzeka Aug 5 corrected full new - Trimmed",
+			"song_url": "audio/Smutna rzeka Aug 5 corrected full new - Trimmed.mp3",
 			"type": "POLISH_SECULAR",
 			"files": [
 				{
