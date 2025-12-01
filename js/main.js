@@ -1038,6 +1038,29 @@
 				},
 			]
 		},
+		{
+			"artist": "Book of 8 Carols",
+			"title": "God is Born/Bog sie rodzi",
+			"song_url": "audio/God is Born final Nov 21 - Trimmed.mp3",
+			"type": "CHRISTMAS",
+			"files": [
+				{
+					"name": "God is Born - Full Orchestra Score",
+					"type": "VISIBLE",
+					"id": "1NscZg0P9ISALTvaX1YAA2OpkACa5zz7q"
+				},
+				{
+					"name": "Bog sie rodzi - pełna partytura orkiestrowa",
+					"type": "VISIBLE",
+					"id": "1q_7AWadzzPPE4imLGdgqdK0ef7uMdUds"
+				},
+				{
+					"name": "God is Born/Bog sie rodzi - Orchestral Parts",
+					"type": "PROTECTED",
+					"url": ""
+				},
+			]
+		},
 	  ]
 
 	  function getActiveTabSongs() {
@@ -1052,6 +1075,8 @@
 			} else if (active_tab === "International Secular Music" && song_type === "INTERNATIONAL_SECULAR") {
 				x = 1;
 			} else if (active_tab === "International Church Music" && song_type === "INTERNATIONAL_CHURCH") {
+				x = 1;
+			} else if (active_tab === "Christmas Music" && song_type === "CHRISTMAS") {
 				x = 1;
 			} else {
 				continue;
