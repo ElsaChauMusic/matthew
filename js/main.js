@@ -880,24 +880,14 @@
 		{
 			"artist": "Jerzy Wasowski",
 			"title": "Piosenka jest dobra/A Song is Good for Everything",
-			"song_url": "audio/J.Wasowski - Piosenka jest dobra_A Song is Good for Everything-  Trimmed.mp3",
+			"song_url": "audio/J.Wasowski - Piosenka jest dobra/A Song is Good for Everything-  Trimmed.mp3",
 			"type": "POLISH_SECULAR",
 			"files": [
-				//{
-				//	"name": "Czy pani mieszka sama /Do you live alone? - Full Orchestral Score",
-				//	"type": "VISIBLE",
-				//	"id": "11N2wkPjCvHRiPnCKMvOHRuMiQgRyUJDo"
-				//},
 				{
 					"name": "Piosenka jest dobra/A Song is Good for Everything - Vocal and Piano Score",
 					"type": "VISIBLE",
 					"id": "1MIBpemxZGeOm3pn-cFfcv18OzDhtIixN"
 				},
-				//{
-				//	"name": "Polski Hymn Narodowy Full Orchestral Parts",
-				//	"type": "PROTECTED",
-				//	"url": ""
-				//},
 			]
 		},
 		{
@@ -1018,7 +1008,7 @@
 		{
 			"artist": "Andrzej Panufnik",
 			"title": "Warszawskie Dzieci/Warsaw's Children",
-			"song_url": "audio/Smutna rzeka Aug 5 corrected full new - Trimmed.mp3",
+			"song_url": "audio/Warszawskie dzieci August 26, 2025 full score - trimmed.mp3",
 			"type": "POLISH_SECULAR",
 			"files": [
 				{
@@ -1040,22 +1030,114 @@
 		},
 		{
 			"artist": "Book of 8 Carols",
-			"title": "God is Born/Bog sie rodzi",
-			"song_url": "audio/God is Born final Nov 21 - Trimmed.mp3",
+			"title": "Hushabye, Jesu Sweet",
+			"song_url": "audio/Hashabye, Lulajze, Jezuniu, Oct 24 2025 - Trimmed.mp3",
 			"type": "CHRISTMAS",
 			"files": [
 				{
-					"name": "God is Born - Full Orchestra Score",
+					"name": "Lulajze, Jezuniu - pełna partytura orkiestrowa",
 					"type": "VISIBLE",
-					"id": "1NscZg0P9ISALTvaX1YAA2OpkACa5zz7q"
+					"id": "1xlqPcUO9Vy4mGgKizAiS3akTJJuWd2XA"
 				},
+				{
+					"name": "Hushabye, Jesu Sweet - Full Orchestra Score",
+					"type": "VISIBLE",
+					"id": "1s_-WyLPwpbzqLWSyWzp3Xg5CbBFU6TMB"
+				},
+				{
+					"name": "Lulajze, Jezuniu / Hushabye, Jesu Sweet - Orchestral Parts",
+					"type": "PROTECTED",
+					"url": ""
+				},
+			]
+		},
+		{
+			"artist": "Book of 8 Carols",
+			"title": "Brothers, Look Ye Upwards / Bracia,",
+			"song_url": "audio/Brothers, Sep 16 English correct 2025 - Trimmed.mp3",
+			"type": "CHRISTMAS",
+			"files": [
+				{
+					"name": "Bracia, - pełna partytura orkiestrowa",
+					"type": "VISIBLE",
+					"id": "1QzsKupBcWPE4XMX1MiklF1TrsGecp8fu"
+				},
+				{
+					"name": "Brothers, Look Ye Upwards - Full Orchestra Score",
+					"type": "VISIBLE",
+					"id": "1rNbfLlWPP7o3K-l3-cXr8N9fu7Ud_Vg2"
+				},
+				{
+					"name": "Brothers, Look Ye Upwards - Orchestral Parts",
+					"type": "PROTECTED",
+					"url": ""
+				},
+			]
+		},
+		{
+			"artist": "Book of 8 Carols",
+			"title": "Gdy śliczna cena Panna/When Lovely Mary",
+			"song_url": "audio/When Lovely Mary Eng Trimmed.mp3",
+			"type": "CHRISTMAS",
+			"files": [
+				{
+					"name": "Gdy śliczna cena Panna - pełna partytura orkiestrowa",
+					"type": "VISIBLE",
+					"id": "12MY7jPN9_LBuU55KDmz68c7_zDxLaJUG"
+				},
+				{
+					"name": "When Lovely Mary - Full Orchestra Score",
+					"type": "VISIBLE",
+					"id": "1_OiiznzjwimQdRhjNZHgAdYZA8tvxt3L"
+				},
+				{
+					"name": "Gdy śliczna cena Panna/When Lovely Mary - Orchestral Parts",
+					"type": "PROTECTED",
+					"url": ""
+				},
+			]
+		},
+		{
+			"artist": "Book of 8 Carols",
+			"title": "Bog sie rodzi ('God is Born')",
+			"song_url": "audio/God is Born final Nov 21 - Trimmed.mp3",
+			"type": "CHRISTMAS",
+			"files": [
 				{
 					"name": "Bog sie rodzi - pełna partytura orkiestrowa",
 					"type": "VISIBLE",
 					"id": "1q_7AWadzzPPE4imLGdgqdK0ef7uMdUds"
 				},
 				{
-					"name": "God is Born/Bog sie rodzi - Orchestral Parts",
+					"name": "God is Born - Full Orchestra Score",
+					"type": "VISIBLE",
+					"id": "1NscZg0P9ISALTvaX1YAA2OpkACa5zz7q"
+				},
+				{
+					"name": "Bog sie rodzi ('God is Born') - Orchestral Parts",
+					"type": "PROTECTED",
+					"url": ""
+				},
+			]
+		},
+		{
+			"artist": "Book of 8 Carols",
+			"title": "Mizerna cicha / How still and Tiny",
+			"song_url": "audio/How still mp3 Dec 5 2025 - Trimmed.mp3",
+			"type": "CHRISTMAS",
+			"files": [
+				{
+					"name": "Mizerna cicha - pełna partytura orkiestrowa",
+					"type": "VISIBLE",
+					"id": "1BPwO9aPfd8fpzwKM9Y0vkRNHC6nP66au"
+				},
+				{
+					"name": "How Still and Tiny - Full Orchestra Score",
+					"type": "VISIBLE",
+					"id": "1fXFDUOvq-XXJg7UHxgHDGKyZVVcIQQOA"
+				},
+				{
+					"name": "Mizerna cicha / How still and Tiny - Orchestral Parts",
 					"type": "PROTECTED",
 					"url": ""
 				},
