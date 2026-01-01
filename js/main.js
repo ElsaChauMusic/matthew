@@ -623,57 +623,13 @@
 				},
 			]
 		},
-		{
-			"artist": "Anonimous 19 cent",
-			"title": "Tryumfy Króla Niebieskiego/Triumphs of the Heavenly King",
-			"song_url": "audio/Tryumfy  in D Dec 2024 final - trimmed.mp3",
-			"type": "POLISH_CHURCH",
-			"files": [
-				{
-					"name": "Tryumfy Piano Vocal Score",
-					"type": "VISIBLE",
-					"id": "1jE7sF2jyRdmnFljtu49ON49xUcVuId-X"
-				},
-				{
-					"name": "Tryumfy Full Orchestral Score",
-					"type": "VISIBLE",
-					"id": "1T4V-KbK3SexcIOtF-dlzLDDgG_sgklZm"
-				},
-				{
-					"name": "Tryumfy Orchestral Parts",
-					"type": "PROTECTED",
-					"url": ""
-				},
-			]
-		},
-		{
-			"artist": "Unknown",
-			"title": "Polish Carols Sing along",
-			"song_url": "audio/2024 Polish Carols Sing along Aniol   fl,ob,2cors,str Trimmed.mp3",
-			"type": "POLISH_CHURCH",
-			"files": [
-				//{
-				//	"name": "Tryumfy Piano Vocal Score",
-				//	"type": "VISIBLE",
-				//	"id": "1jE7sF2jyRdmnFljtu49ON49xUcVuId-X"
-				//},
-				{
-					"name": "Polish Carols Sing along Orchestral Score",
-					"type": "VISIBLE",
-					"id": "1AFn21bjxfm2pcCF9vBaK9MKn9C8PBFpa"
-				},
-				{
-					"name": "Polish Carols Sing along Orchestral Parts",
-					"type": "PROTECTED",
-					"url": ""
-				},
-			]
-		},
+
+
 		{
 			"artist": "Józef Las",
 			"title": "Nie bylo miejsca/There is no room for you",
 			"song_url": "audio/Józef Las -  Nie bylo miejsca w choir, orch S solo - Timmed (1).mp3",
-			"type": "POLISH_CHURCH",
+			"type": "CHRISTMAS",
 			"files": [
 				{
 					"name": "Nie bylo miejsca Piano Vocal Score",
@@ -696,7 +652,7 @@
 			"artist": "Polish Traditional",
 			"title": "Hej, w dzień Narodzenia/Hey, on this day",
 			"song_url": "audio/Hej, OK - w dzien narodzenia full score, jan 2025 Trimmed.mp3",
-			"type": "POLISH_CHURCH",
+			"type": "CHRISTMAS",
 			"files": [
 				{
 					"name": "Hej, w dzień Narodzenia Piano Vocal Score",
@@ -875,7 +831,7 @@
 		{
 			"artist": "Jerzy Wasowski",
 			"title": "Piosenka jest dobra/A Song is Good for Everything",
-			"song_url": "audio/J.Wasowski - Piosenka jest dobra/A Song is Good for Everything-  Trimmed.mp3",
+			"song_url": "audio/J.Wasowski - Piosenka jest dobra_A Song is Good for Everything-  Trimmed.mp3",
 			"type": "POLISH_SECULAR",
 			"files": [
 				{
@@ -1048,12 +1004,12 @@
 		},
 		{
 			"artist": "Book of 8 Carols",
-			"title": "Brothers, Look Ye Upwards / Bracia,",
+			"title": "Brothers, Look Ye Upwards / Bracia, patrzcie jeno",
 			"song_url": "audio/Brothers, Sep 16 English correct 2025 - Trimmed.mp3",
 			"type": "CHRISTMAS",
 			"files": [
 				{
-					"name": "Bracia, - pełna partytura orkiestrowa",
+					"name": "Bracia, patrzcie jeno - pełna partytura orkiestrowa",
 					"type": "VISIBLE",
 					"id": "1QzsKupBcWPE4XMX1MiklF1TrsGecp8fu"
 				},
@@ -1071,12 +1027,12 @@
 		},
 		{
 			"artist": "Book of 8 Carols",
-			"title": "Gdy śliczna cena Panna/When Lovely Mary",
+			"title": "Gdy śliczna Panna / When Lovely Mary",
 			"song_url": "audio/When Lovely Mary Eng Trimmed.mp3",
 			"type": "CHRISTMAS",
 			"files": [
 				{
-					"name": "Gdy śliczna cena Panna - pełna partytura orkiestrowa",
+					"name": "Gdy śliczna Panna - pełna partytura orkiestrowa",
 					"type": "VISIBLE",
 					"id": "12MY7jPN9_LBuU55KDmz68c7_zDxLaJUG"
 				},
@@ -1086,7 +1042,7 @@
 					"id": "1_OiiznzjwimQdRhjNZHgAdYZA8tvxt3L"
 				},
 				{
-					"name": "Gdy śliczna cena Panna/When Lovely Mary - Orchestral Parts",
+					"name": "Gdy śliczna Panna / When Lovely Mary - Orchestral Parts",
 					"type": "PROTECTED",
 					"url": ""
 				},
@@ -1094,7 +1050,7 @@
 		},
 		{
 			"artist": "Book of 8 Carols",
-			"title": "Bog sie rodzi ('God is Born')",
+			"title": "Bog sie rodzi / 'God is Born'",
 			"song_url": "audio/God is Born final Nov 21 - Trimmed.mp3",
 			"type": "CHRISTMAS",
 			"files": [
@@ -1104,12 +1060,12 @@
 					"id": "1q_7AWadzzPPE4imLGdgqdK0ef7uMdUds"
 				},
 				{
-					"name": "God is Born - Full Orchestra Score",
+					"name": "'God is Born' - Full Orchestra Score",
 					"type": "VISIBLE",
 					"id": "1NscZg0P9ISALTvaX1YAA2OpkACa5zz7q"
 				},
 				{
-					"name": "Bog sie rodzi ('God is Born') - Orchestral Parts",
+					"name": "Bog sie rodzi / 'God is Born' - Orchestral Parts",
 					"type": "PROTECTED",
 					"url": ""
 				},
@@ -1133,6 +1089,29 @@
 				},
 				{
 					"name": "Mizerna cicha / How still and Tiny - Orchestral Parts",
+					"type": "PROTECTED",
+					"url": ""
+				},
+			]
+		},
+		{
+			"artist": "Book of 8 Carols",
+			"title": "Tryumfy Króla Niebieskiego / Triumphs of the Heavenly King",
+			"song_url": "audio/Tryumfy  in D Dec 2024 final - trimmed.mp3",
+			"type": "CHRISTMAS",
+			"files": [
+				{
+					"name": "Tryumfy Piano Vocal Score",
+					"type": "VISIBLE",
+					"id": "1jE7sF2jyRdmnFljtu49ON49xUcVuId-X"
+				},
+				{
+					"name": "Tryumfy Full Orchestral Score",
+					"type": "VISIBLE",
+					"id": "1T4V-KbK3SexcIOtF-dlzLDDgG_sgklZm"
+				},
+				{
+					"name": "Tryumfy Orchestral Parts",
 					"type": "PROTECTED",
 					"url": ""
 				},
