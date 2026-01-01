@@ -812,7 +812,7 @@
 			"artist": "Franz Gruber",
 			"title": "Silent Night/Cicha noc",
 			"song_url": "audio/Franz_Gruber__Silent_Night_Cicha_Nocmp3.mp3",
-			"type": "INTERNATIONAL_CHURCH",
+			"type": ["INTERNATIONAL_CHURCH", "CHRISTMAS"],
 			"files": [
 				{
 					"name": "Silent Night Piano Vocal Score",
@@ -824,11 +824,6 @@
 					"type": "VISIBLE",
 					"id": "1sQSE0Gy-DyMLVwniU1CMrFW3J1VkCDb6"
 				},
-				// {
-				// 	"name": "File 3 bla bla bla bla",
-				// 	"type": "PROTECTED",
-				// 	"url": "https://mjaskiewiczmusic.com/contact"
-				// },
 			]
 		},
 		{
@@ -1147,26 +1142,36 @@
 
 	  function getActiveTabSongs() {
 		var active_tab = $(".arrangement-nav .active span").text();
-		var newSongsData = []
-		for(var i=0; i<songs_data.length; i++) {
-			var song_type = songs_data[i]["type"];
-			if (active_tab === "Polish Secular Music" && song_type === "POLISH_SECULAR") {
-				x = 1;
-			} else if (active_tab === "Polish Church Music" && song_type === "POLISH_CHURCH") {
-				x = 1;
-			} else if (active_tab === "International Secular Music" && song_type === "INTERNATIONAL_SECULAR") {
-				x = 1;
-			} else if (active_tab === "International Church Music" && song_type === "INTERNATIONAL_CHURCH") {
-				x = 1;
-			} else if (active_tab === "Christmas Music" && song_type === "CHRISTMAS") {
-				x = 1;
-			} else {
-				continue;
-			}
+		var newSongsData = [];
+	  
+		for (var i = 0; i < songs_data.length; i++) {
+		  var song_type = songs_data[i]["type"];
+	  
+		  // normalize: ensure song_type is always an array
+		  if (!Array.isArray(song_type)) {
+			song_type = [song_type];
+		  }
+	  
+		  if (active_tab === "Polish Secular Music" && song_type.includes("POLISH_SECULAR")) {
 			newSongsData.push(songs_data[i]);
+		  } 
+		  else if (active_tab === "Polish Church Music" && song_type.includes("POLISH_CHURCH")) {
+			newSongsData.push(songs_data[i]);
+		  } 
+		  else if (active_tab === "International Secular Music" && song_type.includes("INTERNATIONAL_SECULAR")) {
+			newSongsData.push(songs_data[i]);
+		  } 
+		  else if (active_tab === "International Church Music" && song_type.includes("INTERNATIONAL_CHURCH")) {
+			newSongsData.push(songs_data[i]);
+		  } 
+		  else if (active_tab === "Christmas Music" && song_type.includes("CHRISTMAS")) {
+			newSongsData.push(songs_data[i]);
+		  }
 		}
+	  
 		return newSongsData;
 	  }
+	  
 
 	  function getSearchMatchingSongs() {
 			$('.alert-no-arrangements-found').hide();
