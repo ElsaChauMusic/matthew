@@ -628,7 +628,7 @@
 		{
 			"artist": "Józef Las",
 			"title": "Nie bylo miejsca/There is no room for you",
-			"song_url": "audio/Józef Las -  Nie bylo miejsca w choir, orch S solo - Timmed (1).mp3",
+			"song_url": "audio/Józef Las -  Nie bylo miejsca w choir, orch S solo - Timmed.mp3",
 			"type": "CHRISTMAS",
 			"files": [
 				{
@@ -1057,12 +1057,12 @@
 				{
 					"name": "Bog sie rodzi - pełna partytura orkiestrowa",
 					"type": "VISIBLE",
-					"id": "1q_7AWadzzPPE4imLGdgqdK0ef7uMdUds"
+					"id": "1zgncUIcrDevlE50cCDgHFVmvwGChlfeW"
 				},
 				{
 					"name": "'God is Born' - Full Orchestra Score",
 					"type": "VISIBLE",
-					"id": "1NscZg0P9ISALTvaX1YAA2OpkACa5zz7q"
+					"id": "1dm4coELGLLIevjNjMe861xCzAyBujO1F"
 				},
 				{
 					"name": "Bog sie rodzi / 'God is Born' - Orchestral Parts",
@@ -1112,29 +1112,6 @@
 				},
 				{
 					"name": "Tryumfy Orchestral Parts",
-					"type": "PROTECTED",
-					"url": ""
-				},
-			]
-		},
-		{
-			"artist": "Book of 8 Carols",
-			"title": "Bog sie rodzi / God is Born",
-			"song_url": "audio/God is Born final Nov 21 - Trimmed.mp3",
-			"type": "CHRISTMAS",
-			"files": [
-				{
-					"name": "Bog sie rodzi pełna partytura orkiestrowa",
-					"type": "VISIBLE",
-					"id": "1zgncUIcrDevlE50cCDgHFVmvwGChlfeW"
-				},
-				{
-					"name": "God is Born Orchestral Score",
-					"type": "VISIBLE",
-					"id": "1dm4coELGLLIevjNjMe861xCzAyBujO1F"
-				},
-				{
-					"name": "Bog sie rodzi / God is Born - Orchestral Parts",
 					"type": "PROTECTED",
 					"url": ""
 				},
