@@ -623,12 +623,10 @@
 				},
 			]
 		},
-
-
 		{
 			"artist": "Józef Las",
 			"title": "Nie bylo miejsca/There was no room for you",
-			"song_url": "audio/Jozef Las -  Nie bylo miejsca w choir orch S solo - Trimmed.mp3",
+			"song_url": "audio/jozef-las-nie-bylo-miejsca.mp3",
 			"type": "CHRISTMAS",
 			"files": [
 				{
