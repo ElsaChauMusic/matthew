@@ -1115,6 +1115,29 @@
 				},
 			]
 		},
+		{
+			"artist": "Book of 8 Carols",
+			"title": "Dzisiaj w Betlejem / Bethlehem City",
+			"song_url": "audio/Bethlehem City Dzisiaj w Betlejem full Score - Trimmed.mp3",
+			"type": "CHRISTMAS",
+			"files": [
+				{
+					"name": "Dzisiaj w Betlejem pełna partytura orkiestrowa",
+					"type": "VISIBLE",
+					"id": "1TNBXpNIRHi6HC2s9PM80nydjc0VvbnUC"
+				},
+				{
+					"name": "Bethlehem City Orchestral Score",
+					"type": "VISIBLE",
+					"id": "1Zjw6p3mXvAHz7syufKt5sOMzmjtaoSln"
+				},
+				{
+					"name": "Tryumfy Orchestral Parts",
+					"type": "PROTECTED",
+					"url": ""
+				},
+			]
+		},
 	  ]
 
 	  function getActiveTabSongs() {
