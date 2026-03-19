@@ -604,7 +604,7 @@
 			"artist": "Bogusław Paleczny",
 			"title": "Ballada o Sw.Jozefie/Song of St. Joseph",
 			"song_url": "audio/Ballada O Sw Jozefie D minor - trimmed.mp3",
-			"type": "POLISH_CHURCH",
+			"type": "CHRISTMAS",
 			"files": [
 				{
 					"name": "Ballada Piano Vocal Score",
@@ -1097,7 +1097,7 @@
 		{
 			"artist": "Book of 8 Carols",
 			"title": "Tryumfy Króla Niebieskiego / Triumphs of the Heavenly King",
-			"song_url": "audio/Tryumfy  in D Dec 2024 final - trimmed.mp3",
+			"song_url": "audio/Tryumfy in D Dec 2024 final - trimmed.mp3",
 			"type": "CHRISTMAS",
 			"files": [
 				{
@@ -1112,6 +1112,29 @@
 				},
 				{
 					"name": "Tryumfy Orchestral Parts",
+					"type": "PROTECTED",
+					"url": ""
+				},
+			]
+		},
+		{
+			"artist": "Book of 8 Carols",
+			"title": "Bog sie rodzi / God is Born",
+			"song_url": "audio/God is Born final Nov 21 - Trimmed.mp3",
+			"type": "CHRISTMAS",
+			"files": [
+				{
+					"name": "Bog sie rodzi pełna partytura orkiestrowa",
+					"type": "VISIBLE",
+					"id": "1zgncUIcrDevlE50cCDgHFVmvwGChlfeW"
+				},
+				{
+					"name": "God is Born Orchestral Score",
+					"type": "VISIBLE",
+					"id": "1dm4coELGLLIevjNjMe861xCzAyBujO1F"
+				},
+				{
+					"name": "Bog sie rodzi / God is Born - Orchestral Parts",
 					"type": "PROTECTED",
 					"url": ""
 				},
