@@ -979,7 +979,7 @@
 		},
 		{
 			"artist": "Book of 8 Carols",
-			"title": "Hushabye, Jesu Sweet",
+			"title": "Lulajze, Jezuniu / Hushabye, Jesu Sweet",
 			"song_url": "audio/Hashabye, Lulajze, Jezuniu, Oct 24 2025 - Trimmed.mp3",
 			"type": "CHRISTMAS",
 			"files": [
@@ -1002,7 +1002,7 @@
 		},
 		{
 			"artist": "Book of 8 Carols",
-			"title": "Brothers, Look Ye Upwards / Bracia, patrzcie jeno",
+			"title": "Bracia, patrzcie jeno / Brothers, Look Ye Upwards ",
 			"song_url": "audio/Brothers, Sep 16 English correct 2025 - Trimmed.mp3",
 			"type": "CHRISTMAS",
 			"files": [
@@ -1071,7 +1071,7 @@
 		},
 		{
 			"artist": "Book of 8 Carols",
-			"title": "Mizerna cicha / How still and Tiny",
+			"title": "Mizerna cicha / How Still and Tiny",
 			"song_url": "audio/How still mp3 Dec 5 2025 - Trimmed.mp3",
 			"type": "CHRISTMAS",
 			"files": [
@@ -1122,17 +1122,40 @@
 			"type": "CHRISTMAS",
 			"files": [
 				{
-					"name": "Dzisiaj w Betlejem pełna partytura orkiestrowa",
+					"name": "Dzisiaj w Betlejem - pełna partytura orkiestrowa",
 					"type": "VISIBLE",
 					"id": "1TNBXpNIRHi6HC2s9PM80nydjc0VvbnUC"
 				},
 				{
-					"name": "Bethlehem City Orchestral Score",
+					"name": "Bethlehem City - Orchestral Score",
 					"type": "VISIBLE",
 					"id": "1Zjw6p3mXvAHz7syufKt5sOMzmjtaoSln"
 				},
 				{
 					"name": "Tryumfy Orchestral Parts",
+					"type": "PROTECTED",
+					"url": ""
+				},
+			]
+		},
+		{
+			"artist": "Book of 8 Carols",
+			"title": "A coz z ta Dziecina / Tell Me Little Shepherds",
+			"song_url": "audio/Tell me Little Shepherds - Trimmed.mp3",
+			"type": "CHRISTMAS",
+			"files": [
+				{
+					"name": "A coz z ta Dziecina - pełna partytura orkiestrowa",
+					"type": "VISIBLE",
+					"id": "1t9NiNYQQgtpHtSCHl_EYFNTOY9nlV6fZ"
+				},
+				{
+					"name": "Tell Me Little Shepherds - Orchestral Score",
+					"type": "VISIBLE",
+					"id": "1jxR8IxnrJ7mmfVVECeJKIIHmB4c6sOek"
+				},
+				{
+					"name": "A coz z ta Dziecina - Orchestral Parts",
 					"type": "PROTECTED",
 					"url": ""
 				},
