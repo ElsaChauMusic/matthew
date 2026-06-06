@@ -829,13 +829,13 @@
 		{
 			"artist": "Jerzy Wasowski",
 			"title": "Piosenka jest dobra/A Song is Good for Everything",
-			"song_url": "audio/J.Wasowski - Piosenka jest dobra_A Song is Good for Everything-  Trimmed.mp3",
+			"song_url": "audio/Piosenka new D Major ties 2 - trimmed.mp3",
 			"type": "POLISH_SECULAR",
 			"files": [
 				{
 					"name": "Piosenka jest dobra/A Song is Good for Everything - Vocal and Piano Score",
 					"type": "VISIBLE",
-					"id": "1MIBpemxZGeOm3pn-cFfcv18OzDhtIixN"
+					"id": "1YQ_-FUayRdSvRF1Wf8dcdTm_Q8ZC_kx8"
 				},
 			]
 		},
@@ -1231,7 +1231,7 @@
 		}
 		var i;
 		for (i=total_song_cards; i<songs_data.length; i++) {
-			if(count == 10) {
+			if(count == 100) {
 				$(".show-more-arrangements").removeClass('animated-fast fadeInUp').show()
 				return;
 			}
