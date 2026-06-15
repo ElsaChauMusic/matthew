@@ -1161,6 +1161,29 @@
 				},
 			]
 		},
+		{
+			"artist": "Ks.Michal Mioduszewski",
+			"title": "Zwycięzca śmierci / Conqueror of Death",
+			"song_url": "audio/Zwyciezca Smierci_Conqueror final - Trimmed.mp3",
+			"type": "POLISH_CHURCH",
+			"files": [
+				//{
+					//"name": "Nie bylo miejsca Piano Vocal Score",
+					//"type": "VISIBLE",
+					//"id": "1Gbt2248PRJemPT8x7ZGGYx51YcK-V5oR"
+				//},
+				{
+					"name": "Zwycięzca śmierci - Choir Orchestral Score",
+					"type": "VISIBLE",
+					"id": "1txX9zTL0dGkVqDgPaJG29YrDvNYYuMmB"
+				},
+				{
+					"name": "My Chcemy Boga Choir Orchestral Parts",
+					"type": "PROTECTED",
+					"url": ""
+				},
+			]
+		},
 	  ]
 
 	  function getActiveTabSongs() {
