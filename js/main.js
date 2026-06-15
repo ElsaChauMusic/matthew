@@ -1164,7 +1164,7 @@
 		{
 			"artist": "Ks.Michal Mioduszewski",
 			"title": "Zwycięzca śmierci / Conqueror of Death",
-			"song_url": "audio/Zwyciezca Smierci_Conqueror final - Trimmed.mp3",
+			"song_url": "audio/Zwyciezca Smierci Conqueror final - Trimmed.mp3",
 			"type": "POLISH_CHURCH",
 			"files": [
 				//{
@@ -1178,7 +1178,7 @@
 					"id": "1txX9zTL0dGkVqDgPaJG29YrDvNYYuMmB"
 				},
 				{
-					"name": "My Chcemy Boga Choir Orchestral Parts",
+					"name": "Zwycięzca śmierci - Choir Orchestral Parts",
 					"type": "PROTECTED",
 					"url": ""
 				},
